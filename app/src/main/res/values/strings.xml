@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">PD4_Matas</string>
+    <!-- App Strings -->
+    <string name="app_name">Exchange Rates App</string>
+    <string name="exchange_rates_title">Exchange Rates</string>
+    <string name="fetch_error_message">Failed to fetch data!</string>
+    <string name="parse_error_message">Error parsing data!</string>
+    <string name="api_url">https://open.er-api.com/v6/latest</string>
+
+    <!-- Log Messages -->
+    <string name="log_fetched_data">Fetched Data: %1$s</string>
+    <string name="log_fetch_error">Error fetching data</string>
+    <string name="log_result_empty">Result is empty or null</string>
+    <string name="log_parse_error">Error parsing data</string>
+    <string name="log_listview_updated">Parsed and updated ListView successfully</string>
+
+    <!-- ListView Formatting -->
+    <string name="rate_format">%1$s: %2$s</string>
 </resources>
